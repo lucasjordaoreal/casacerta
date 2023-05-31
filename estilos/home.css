@@ -1,0 +1,141 @@
+.container {
+    position: relative;
+    height: 200px;
+    width: 300px;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+
+.botao-canto {
+    position: absolute;
+    top: 10px;
+    border: none;
+    right: 100px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ff000000;
+}
+
+.search-bar {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    width: 220px;
+    height: 40px;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    padding: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.search-icon {
+    margin: 0 8px;
+}
+
+.search-bar input[type="text"] {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 4px 8px;
+}
+
+.centrar-imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 39vh;
+  }
+
+.campo-casas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes-centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Espaçamento superior */
+  }
+  
+  .botao-entrar {
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #eb7600;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px; /* Espaçamento inferior entre os botões */
+    font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+  }
+  
+.botao-cadastrar {
+    color: #27334C;
+    padding: 2px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #00000000;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px; /* Espaçamento inferior entre os botões */
+    font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+  }
+
+.texto-centro {
+    margin-top: 20px; /* Espaçamento superior em relação à imagem */
+    text-align: center;
+  }
+  
+  .texto-centro h1 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+  }
+
+
+  .produtos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .produto {
+    width: 33.33%;
+    text-align: center;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+  }
+
+.produto img {
+    width: 100%;
+    height: auto;
+    max-width: 255px;
+    border: 5px solid#000;
+    border-radius: 35px;
+    color: #27334C;
+    
+}
+
+.produto h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha*/
+}
+
+.perfil{
+  position: absolute;
+  top: 4%;
+  border: none;
+  left: 22%;
+  width: 150px;
+}

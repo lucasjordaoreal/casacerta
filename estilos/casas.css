@@ -1,0 +1,103 @@
+/* Estilos com base na proporção de 1920x1080 */
+@media screen and (min-aspect-ratio: 16/9) {
+    /* Estilos para telas mais largas */
+    body {
+      transform: scale(calc(100vw / 1920));
+      transform-origin: top left;
+      width: 1920px;
+      height: 1080px;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+  }
+  
+  @media screen and (max-aspect-ratio: 9/16) {
+    /* Estilos para telas mais estreitas */
+    body {
+        transform: scale(calc(100vh / 1080));
+        transform-origin: top left;
+        width: 1080px;
+        height: 1920px;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+  }
+  
+  /* Restante do seu CSS */
+  .logo-img {
+        position: absolute;
+        top: 20px;
+        left: 0px;
+        width: 200px;
+        height: auto;
+  }
+  
+  #produto-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+  }
+  
+  /* Restante dos estilos... */
+  
+  
+    #produto-imagem {
+        transform: translate(-45%, 1%); /* Mover para a esquerda */
+        width: 500px; /* Ajuste o tamanho da imagem conforme necessário */
+        height: auto;
+        border-radius: 60px;
+        box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.358);
+    }
+  
+    #produto-descricao {
+        transform: translate(-32%, 1%); /* Mover para a esquerda */
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+        max-width: 600px; /* Defina o valor máximo desejado para a largura */
+    }
+  
+    #produto-preco {
+        position: absolute;
+        top: 42%;
+        left: 250px;
+        right: 0;
+        text-align: center;
+        margin: 20px auto 0;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+  
+    .aluga-button {
+        /* Estilos específicos para o botão de alugar */
+        position: absolute;
+        top: 38%;
+        left: 1025px;
+        background-color: #ff8800; /* Laranja */
+        color: #fff;
+        padding: 12px 20px;
+        border: none;
+        font-weight: bold;
+        border-radius: 40px;
+        cursor: pointer;
+        font-size: large;
+        font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+    }
+  
+    .mostrar-mais-btn {
+        background-color: #ff8800; /* Cor de fundo do botão */
+        color: white; /* Cor do texto do botão */
+        border: none; /* Remover a borda do botão */
+        padding: 5px 10px; /* Espaçamento interno do botão */
+        font-size: 10px; /* Tamanho da fonte do botão */
+        cursor: pointer; /* Cursor ao passar o mouse sobre o botão */
+        border-radius: 40px;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+    }
+
+  

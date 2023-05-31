@@ -1,0 +1,106 @@
+.logo-img {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 200px; /* Ajuste o valor conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.login-container {
+    background-color: #ff0000; /* Azul claro */
+    padding: 20px;
+    border-radius: 50px;
+    width: 700px;
+    height: 400px;
+    margin: 0 auto; /* Centralizar horizontalmente */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centralizar verticalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topo{
+    text-align: center;
+    transform: translate(0%, -60%); /* Centralizar verticalmente */
+    font-size: 20px;
+    display: center;
+    font-weight: bold;
+    color:#ffffff;
+    font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.down{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#ffffff;
+    font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    transform: translate(0%, -95%); /* Centralizar verticalmente */
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-input {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    background-color: #5d5d5d;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.triangulo{
+    transform: translate(0%, -80%); /* Centralizar verticalmente */
+}
+
+.login-button {
+    text-decoration: none;
+    align-self: center;
+    margin-top: 50px;
+    background-color: #ff8800; /* Azul de aço */
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    transform: translate(0%, -420%); /* Centralizar verticalmente */
+    border-radius: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+}
+.cad-input {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    background-color: #5d5d5d;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.cad-button {
+    text-decoration: none;
+    background-color: #ff8800; /* Azul de aço */
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    transform: translate(0%, -120%); /* Centralizar verticalmente */
+    font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+}

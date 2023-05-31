@@ -1,0 +1,7 @@
+.voltar{
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    width: 50px; /* Ajuste o valor conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}

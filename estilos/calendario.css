@@ -1,0 +1,42 @@
+/* Estilos do calendário */
+#calendario {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .calendario-dia {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .calendario-dia:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .calendario-dia.selecionado {
+    background-color: #ff8800;
+    color: #fff;
+  }
+  
+  .calendario-dia.invalido {
+    background-color: #eee;
+    cursor: not-allowed;
+  }
+  
+  /* Estilos gerais */
+  h1, h2, p {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  input[type="date"] {
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  

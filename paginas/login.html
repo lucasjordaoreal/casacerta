@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login • Casa Certa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/estilos/login.css">
+    <link rel="icon" type="image" href="/imagens/Logo_casacerta.svg">
+    <script src="/scripts/login.js"></script>
+</head>
+<body>
+    <a href="/index.html">
+        <img src="/imagens/Logo_casacerta.svg" alt="Logotipo da empresa Casa Certa" class="logo-img">
+    </a>
+    <div class="login-container">
+        <div class="topo">
+            <h1>LOGUE COM SEU USUÁRIO E SENHA</h1>
+        </div>
+        <form id="login-form" onsubmit="login(event)">
+            <div class="input-container">
+                <input type="text" id="username" name="username" placeholder="USUÁRIO" class="login-input" required>
+            </div>
+            <div class="input-container">
+                <input type="password" id="password" name="password" placeholder="SENHA" class="login-input" required>
+            </div>
+            <div class="down">
+                <h1>SE PREFERIR, COM SUAS REDES</h1>
+            </div>
+            <div class="twitter">
+                <a href="https://twitter.com/i/flow/signup">
+                    <img src="/imagens/Twitter.png" alt="Twitter"width="60" height="60">
+                    </a>
+            </div>
+            <div class="linkedin">
+                <a href="https://br.linkedin.com/">
+                    <img src="/imagens/linkedin.webp" alt="Twitter"width="72" height="72">
+                    </a>
+            </div>
+            <div class="facebook">
+                <a href="https://www.facebook.com/">
+                    <img src="/imagens/Facebook.webp" alt="Twitter"width="50" height="50">
+                    </a>
+            </div>
+            <div class="google">
+                <a href="https://accounts.google.com/signin">
+                    <img src="/imagens/Google1.png" alt="Twitter"width="55" height="55">
+                    </a>
+            </div>
+            <button type="submit" class="login-button">ENTRAR</button>
+        </form>
+    </div>
+</body>
+</html>

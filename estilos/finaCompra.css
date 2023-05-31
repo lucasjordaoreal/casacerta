@@ -1,0 +1,182 @@
+.logo-img {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  width: 200px; /* Ajuste o valor conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+#produto-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#produto-imagem {
+  width: 27.5vw; /* Ajuste o tamanho da imagem conforme necessário */
+  height: 26.4vw;
+  border-radius: 60px;
+  box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.358);
+  transform: translate(-28%, -72%); /* Centralizar verticalmente */
+}
+
+.finaAluguel {
+  text-align: center;
+  transform: translate(-8%, -12%); /* Centralizar verticalmente */
+  font-size: 1.5vw;
+  display: center;
+  font-weight: bold;
+  color: #ff8c00;
+  font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.escData {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: #ff8c00;
+  font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  transform: translate(+30%, -168%); /* Centralizar verticalmente */
+}
+
+
+#produto-preco {
+  display: flex;
+  position: absolute;
+  top: 25%;
+  left: 63%;
+  transform: translate(-50%, -190%);
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.5vw;
+  color: #ff8c00;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.381);
+}
+
+#calendario-container {
+  font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+}
+
+#calendario-container h2 {
+  display: flex;
+  text-align: center;
+  font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+}
+
+.calendario-dias {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin-top: 9px; /* Ajuste o valor conforme necessário */
+}
+
+.calendario-dia {
+  text-align: center;
+  padding: 8px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.calendario-dia:hover {
+  background-color: #909090;
+}
+
+
+#calendario-wrapper {
+  display: flex;
+  position: absolute;
+  top: 12%;
+  left: 70%;
+  width: 18vw; /* Ajuste a largura conforme necessário */
+  height: auto; /* Altura ajustada automaticamente para se adaptar ao conteúdo */
+  background-color: #ff8c00;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 2px 3px rgba(0, 0, 0, 0.201);
+}
+
+
+.total-conta {
+  display: flex;
+  position: absolute;
+  top: 25%;
+  left: 63%;
+  transform: translate(-50%, -50%);
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.5vw;
+  color: #ff8c00;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.381);
+}
+.calendario-dia.selecionado {
+  background-color: #2ecc71;
+  color: white;
+}
+.calendario-dia.passado {
+  pointer-events: none;
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
+#totalConta {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.pagamento{
+  width: 27.5vw;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  display: flex;
+}
+.btn-avancar {
+  display: flex;
+  position: absolute;
+  top: 15%;
+  left: 84%;
+  display: inline-block;
+  padding: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+.btn-retroceder{
+  display: flex;
+  position: absolute;
+  top: 15%;
+  left: 82%;
+  display: inline-block;
+  padding: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+.btn-retroceder:hover,
+.btn-avancar:hover {
+  background-color: #0056b3;
+}
+#pagarPix {
+  background-color: #00b0ff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}

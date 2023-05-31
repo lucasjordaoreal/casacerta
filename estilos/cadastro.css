@@ -1,0 +1,72 @@
+.logo-img {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 200px; /* Ajuste o valor conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.topo{
+    font-size: 15px;
+    font-weight: bold;
+    color:#ff8800;
+    font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cad-container {
+    background-color: #487EFF; /* Azul claro */
+    padding: 20px;
+    border-radius: 50px;
+    width: 400px;
+    height: 550px;
+    margin: 0 auto; /* Centralizar horizontalmente */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centralizar verticalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.cad-input {
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+    background-color: #5d5d5d;
+    border: none;
+    border-radius: 13px;
+    transform: translate(-5%, -5%); /* Centralizar verticalmente */
+    font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.cad-button {
+    align-self: center;
+    margin-top: 50px;
+    background-color: #ff8800; /* Azul de aço */
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    transform: translate(+15%, -95%); /* Centralizar verticalmente */
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: large;
+    font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+}
+.cad-fields {
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes • Casa Certa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/estilos/casas.css">
+    <link rel="icon" type="image" href="/imagens/Logo_casacerta.svg">
+</head>
+<body>
+    <div id="produto-container">
+        <img id="produto-imagem" src="" alt="Imagem do Produto">
+        <p id="produto-preco" class="produto-preco"></p><!-- Elemento para exibir o preço -->
+        <p id="produto-descricao" class="produto-descricao">
+            <span class="descricao-resumida"></span>
+            <span class="descricao-completa"></span>
+        </p>
+        
+    </div>
+    <a href="/paginas/HomeLogado.html">
+        <img src="/imagens/Logo_casacerta.svg" alt="Logotipo da empresa Casa Certa" class="logo-img">
+    </a>
+    <form id="rent-form" onsubmit="rent(event)">
+        <button type="submit" class="aluga-button">ALUGAR</button>
+      </form>
+      
+    <script src="/scripts/casas.js"></script>
+</body>
+</html>

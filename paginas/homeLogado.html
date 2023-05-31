@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Certa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/estilos/home.css">
+    <link rel="icon" type="image" href="/imagens/Logo_casacerta.svg">
+</head>
+<body>
+    <div class="botao-canto">
+
+        <button class="botao-canto" onclick="window.location.href='/paginas/Ajuda.html'">Precisa de ajuda?</button>
+    </div>
+    <div class="search-bar">
+        <svg class="search-icon" width="24" height="24" viewBox="0 0 24 24" fill="#3C3C43">
+            <path d="M15.5 14H14.71L14.43 13.73C15.45 12.59 16 11.11 16 9.5C16 5.91 13.09 3 9.5 3C5.91 3 3 5.91 3 9.5C3 13.09 5.91 16 9.5 16C11.11 16 12.59 15.45 13.73 14.43L14 14.71V15.5L19.25 20.75L20.75 19.25L15.5 14V14ZM9.5 14C6.5 14 4 11.5 4 8.5C4 5.5 6.5 3 9.5 3C12.5 3 15 5.5 15 8.5C15 11.5 12.5 14 9.5 14Z"/>
+        </svg>
+        <input type="text" placeholder="       Onde vamos?"onkeydown="handleKeyPress(event)">
+    </div>
+
+    <div class="centrar-imagem">
+        <img src="/imagens/Logo_casacerta.svg" alt="Logotipo da empresa Casa Certa">
+    </div>
+      
+<div class="texto-centro">
+    <h1>⭐RECOMENDADOS⭐</h1>
+</div>
+<div class="produtos-container">
+    <div class="produto">
+      <a href="/paginas/Casas.html?produto=1">
+        <img src="/imagens/Produtos/DALL·E 2023-03-10 14.01.35 - beach houses for rent, pool, chateau.png" alt="Produto 1">
+      </a>
+      <h3>Uma deslumbrante casa</h3>
+    </div>
+    
+    <div class="produto">
+      <a href="/paginas/Casas.html?produto=2">
+        <img src="/imagens/Produtos/DALL·E 2023-03-10 14.01.29 - beach houses for rent, pool, chateau.png" alt="Produto 2">
+      </a>
+      <h3>No coração do Paraná</h3>
+    </div>
+    
+    <div class="produto">
+      <a href="/paginas/Casas.html?produto=3">
+        <img src="/imagens/Produtos/DALL·E 2023-03-10 14.04.32 - houses for rent, pool, brazil, mansion, countryside of São Paulo.png" alt="Produto 3">
+      </a>
+      <h3>Linda casa em Pompéia</h3>
+    </div>
+    
+    <div class="produto">
+      <a href="/paginas/casas.html?produto=4">
+        <img src="/imagens/Produtos/DALL·E 2023-03-10 14.04.29 - houses for rent, pool, brazil, mansion, countryside of São Paulo.png" alt="Produto 4">
+      </a>
+      <h3>Casa encantadora em Marília</h3>
+    </div>
+    
+    <div class="produto">
+      <a href="/paginas/casas.html?produto=5">
+        <img src="/imagens/Produtos/DALL·E 2023-03-10 14.04.20 - houses for rent, pool, brazil, mansion, countryside of São Paulo.png" alt="Produto 5">
+      </a>
+      <h3>Uma linda casa em Parapuã</h3>
+    </div>
+    
+    <div class="produto">
+      <a href="/paginas/casas.html?produto=6">
+        <img src="/imagens/Produtos/DALL·E 2023-03-10 14.03.03 - houses for rent, pool, brazil, mansion.png" alt="Produto 6">
+      </a>
+      <h3>Imóvel localizado em Guarujá</h3>
+    </div>
+  </div>
+  <div class="perfil">
+    <a href="/paginas/perfil.html">
+      <img src="/imagens/perfil.png" alt="simbolo de usuario em laranja">
+    </a>
+  </div>
+  <script>
+    function handleKeyPress(event) {
+        if (event.key === 'Enter') {
+            window.location.href = '/paginas/futurasPesquisas.html';
+        }
+    }
+</script>
+</body>
+</html>

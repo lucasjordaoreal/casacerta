@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro • Casa Certa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/estilos/cadastro.css">
+    <link rel="icon" type="image" href="/imagens/Logo_casacerta.svg">
+    <script src="/scripts/cadastro.js"></script>
+</head>
+<body>
+    <a href="/index.html">
+        <img src="/imagens/Logo_casacerta.svg" alt="Logotipo da empresa Casa Certa" class="logo-img">
+    </a>
+    <div class="cad-container">
+        <div class="topo">
+            <h1>CADASTRO</h1>
+        </div>
+        <form id="cad-form" onsubmit="cad(event)">
+            <div class="input-container">
+                <input type="text" id="name" name="name" placeholder="NOME" class="cad-input" required>
+            </div>
+            <div class="input-container">
+                <input type="text" id="sobrenome" name="sobrenome" placeholder="SOBRENOME" class="cad-input" required>
+            </div>
+            <div class="input-container">
+                <input type="date" id="nascimento" name="nascimento" placeholder="DATA DE NASCIMENTO" class="cad-input" required>
+            </div>
+            <div class="input-container">
+                <input type="email" id="email" name="email" placeholder="EMAIL" class="cad-input" required>
+            </div>
+            <div class="input-container">
+                <input type="password" id="password" name="password" placeholder="SENHA" class="cad-input" required>
+            </div>
+            <div class="input-container">
+                <input type="text" id="cidade" name="cidade" placeholder="CIDADE" class="cad-input" required>
+            </div>
+            <div class="input-container">
+                <input type="tel" id="telefone" name="telefone" placeholder="TELEFONE" class="cad-input" required>
+            </div>
+            <button type="submit" class="cad-button">CADASTRAR</button>
+        </form>
+    </div>
+</body>
+</html>
