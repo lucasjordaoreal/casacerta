@@ -1,17 +1,17 @@
 .logo-img {
     position: absolute;
-    top: 20px;
+    top: 1.25rem;
     left: 0px;
-    width: 200px; /* Ajuste o valor conforme necessário */
+    width: 12.5rem; /* Ajuste o valor conforme necessário */
     height: auto; /* Mantém a proporção da imagem */
 }
 
 .login-container {
     background-color: #487EFF; /* Azul claro */
-    padding: 20px;
-    border-radius: 50px;
-    width: 400px;
-    height: 400px;
+    padding: 1.25rem;
+    border-radius: 3.125rem;
+    width: 25rem;
+    height: 25rem;
     margin: 0 auto; /* Centralizar horizontalmente */
     position: absolute;
     top: 50%;
@@ -23,7 +23,7 @@
 }
 
 .topo{
-    font-size: 10px;
+    font-size: 0.625rem;
     font-weight: bold;
     color:#ff8800;
     font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
@@ -31,8 +31,8 @@
 }
 
 .down{
-    margin-top: 25px;
-    font-size: 10px;
+    margin-top: 1.5625rem;
+    font-size: 0.625rem;
     font-weight: bold;
     color:#ff8800;
     font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
@@ -40,41 +40,42 @@
 }
 
 .input-container {
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 
 .label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
 }
 
 .login-input {
     width: 100%;
-    padding: 10px;
+    padding: 0.625rem;
     color: #fff;
     background-color: #5d5d5d;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .login-button {
     align-self: center;
-    margin-top: 50px;
+    margin-top: 1.5625rem;
     background-color: #ff8800; /* Azul de aço */
     color: #fff;
-    padding: 12px 20px;
+    padding: 0.75rem 1.25rem;
     border: none;
     transform: translate(+90%, -320%); /* Centralizar verticalmente */
-    border-radius: 40px;
+    border-radius: 2.5rem;
     cursor: pointer;
     font-size: large;
     font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
 }
+
 .login-fields {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
 }
 
